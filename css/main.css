@@ -1,9 +1,11 @@
 * {
 	color: #000;
 }
-  color: #222222;
+body {
+  color: purple;
   margin:0;
 }
+
 /*anchor element*/
 a {
 	color:#222222;
@@ -78,7 +80,7 @@ div.searchBox input {
   border-radius: 5px;
   display: block;
 }
-
+/*select any input element that is focused on, nested inside of any div element with a class of searchBox*/
 div.searchBox input:focus {
 	border-color: #f5f5f5;
 }
